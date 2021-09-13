@@ -23,12 +23,28 @@
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
+	<!-- =======chat-app======= -->
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/60fe7d5e649e0a0a5ccdf4c8/1fbh1jf82';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>
+	<!--End of Tawk.to Script-->
+	<!-- =====chat-app ends==== -->
 </head>
 
-<body onload="document.getElementById('id01').style.display='block'">
+<body>
 	<!-- Page Preloder -->
 	<div id="preloder">
-		<div class="loader"></div>
+		<!-- <div class="loader"></div> -->
+		<img src="img/features/moving_car_25" class="mt-2" alt="">
 	</div>
 
 	<!-- Header section  -->
@@ -76,8 +92,8 @@
 			<nav class="site-nav-menu">
 				<ul>
 					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -143,9 +159,24 @@
 	</section>
 	<!-- Hero section end  -->
 
+
 	<!-- Services section  -->
 	<section class="services-section">
-		<div class="services-warp">
+		<div class="announcement-warp">
+			<!-- News announcement -->
+			<section class="cta-section">
+				<div class="container">
+					<div class="row">
+					  <div class="col-md-8 m-auto">
+						<div class="d-flex justify-content-between align-items-center breaking-news bg-transparent">
+						  <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-primary py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Updates</span></div>
+						  <marquee class="news-scroll text-white" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#">Providing classroom instruction and behind-the-wheel lessons to keep our streets safe </a> <span class="dot"></span> <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </a> <span class="dot"></span> <a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse </a> </marquee>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</section>
+			  <!-- End of news announcement -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6">
@@ -165,9 +196,9 @@
 								<div class="si-icon">
 									<i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
 								</div>
-								<h5>Online Classes</h5>
+								<h5>EXPERT DRIVER ​PREPARATION</h5>
 							</div>
-							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu.</p>
+							<p>The school offers the following services for teenage first-time drivers, new adult learners and existing drivers with lapsed licenses.</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
@@ -187,9 +218,9 @@
 								<div class="si-icon">
 									<i class="fa fa-taxi fa-2x" aria-hidden="true"></i>
 								</div>
-								<h5>Behind The Wheel</h5>
+								<h5>STUDENT SERVICES</h5>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. </p>
+							<p>Practice makes perfect! We know you’ve heard that before, but it’s especially true with driving.</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
@@ -198,9 +229,9 @@
 								<div class="si-icon">
 									<i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i>
 								</div>
-								<h5>Car Rentals and Driving Practices</h5>
+								<h5>EXPERIENCED INSTRUCTORS</h5>
 							</div>
-							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu.</p>
+							<p>When you first start learning to drive, it can seem a little overwhelming. We know that, but don’t worry – you’re in good hands!</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
@@ -226,10 +257,10 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="feature-box">
-						<img src="img/features/download.png" class=" mt-2" alt="">
+						<img src="img/features/schooltips.jpg" class=" mt-2" alt="">
 						<div class="fb-text">
-							<h5>Driving School</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. </p>
+							<h5>CHOOSING A DRIVING SCHOOL</h5>
+							<p>The right driving school is accredited according to state laws and will prepare you to be a safe, confident driver.</p>
 							<!-- <a href="" class="fb-more-btn">Book Appointment</a> -->
 							<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
 							<a class="btn btn-sm" id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/c668e469-ea21-484c-a1e2-04866e9de453">
@@ -240,10 +271,10 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="feature-box">
-						<img src="img/features/download.png" class=" mt-2" alt="">
+						<img src="img/features/car-dealer-loader-gif.gif" class=" mt-2" alt="">
 						<div class="fb-text">
-							<h5>Rental Services</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. </p>
+							<h5>ROAD TEST PREPARATION</h5>
+							<p>Practice makes perfect! We know you’ve heard that before, but it’s especially true with driving.</p>
 							<!-- <a href="" class="fb-more-btn">Book Appointment</a> -->
 							<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
 							<a class="btn btn-sm" id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/c668e469-ea21-484c-a1e2-04866e9de453">
@@ -256,8 +287,8 @@
 					<div class="feature-box">
 						<img src="img/features/download.png" class=" mt-2" alt="">
 						<div class="fb-text">
-							<h5>Online School</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. </p>
+							<h5>DRIVING BASICS</h5>
+							<p>When you first start learning to drive, it can seem a little overwhelming. We know that, but don’t worry – you’re in good hands!</p>
 							<!-- <a href="" class="fb-more-btn">Book Appointment</a> -->
 							<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
 							<a class="btn btn-sm" id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/c668e469-ea21-484c-a1e2-04866e9de453">
@@ -276,8 +307,8 @@
 	<section class="clients-section spad">
 		<div class="container">
 			<div class="client-text">
-				<h2>Renny Driving Academy, We are a group of productive enterprises that .... What else can be here</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+				<h2>For many years, we have been helping people of all ages learn to drive.</h2>
+				<p>Renny Driving Academy was founded to provide safe and professional driving instruction to new drivers in the Washington, DC area. We serve hundreds of students each year and our fully licensed driving school is trusted by adults and teenagers alike to provide a patient, courteous, and safe driving experience.</p>
 			</div>
 			<div id="client-carousel" class="client-slider owl-carousel">
 				<div class="single-brand">
@@ -324,7 +355,7 @@
 							<h2>Client’s Testimonials</h2>
 							<div class="testimonial-slider owl-carousel">
 								<div class="testimonial">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+									<p>Renny Driving Academy helped me pass my written exam and behind-the-wheel driving test. I’m so excited to have my license – thank you!</p>
 									<img src="img/testimonial-thumb.jpg" alt="" class="testi-thumb">
 									<div class="testi-info">
 										<h5>Oluremi Ugo</h5>
@@ -332,7 +363,7 @@
 									</div>
 								</div>
 								<div class="testimonial">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+									<p>This school really know how to educate new or inexperienced drivers. I feel comfortable with my teen attending – they’re in good hands!</p>
 									<img src="img/testimonial-thuma.jpg" alt="" class="testi-thumb">
 									<div class="testi-info">
 										<h5>Jack Smith</h5>
@@ -490,7 +521,7 @@
 		</div>
 	</div>
 	<!-- Search model end -->
-	
+
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
