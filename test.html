@@ -102,7 +102,37 @@
 			</div>
 			<input type="submit" class="btnRegister"  value="Register"/>
 		  </form>
+		  <div class="container">
+			<div class="row">
+				<img src="img/rda.png" class="   fea-img">
+		
+		<input type="file" class="upld-file">
+			</div>
+		</div>
 	</section>
+
+	<script>
+
+$(".upld-file").change(function (event) {
+   
+          
+   
+   var ev = event.target;
+
+		 if (this.files && this.files[0]) {
+			 var reader = new FileReader();
+			 reader.onload = imageIsLoaded;
+			 reader.readAsDataURL(this.files[0]);
+		 }
+		 function imageIsLoaded(e) {
+		 $(ev).parent().siblings('.fea-img').attr("src", e.target.result);
+		   
+		 };
+	 });
+
+
+	</script>
+
     <script>
 		let userName = prompt("Enter your name now:");
 
@@ -121,6 +151,7 @@
 	</script>
 	
 	<!--====== Javascripts & Jquery ======-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
