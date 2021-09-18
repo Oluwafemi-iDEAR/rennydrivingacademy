@@ -48,18 +48,7 @@
 
 	<!-- Header section  -->
 	<header class="header-section clearfix">
-		<div class="header-top">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-					<div class="col-md-6 text-md-right">
-						<button class="search-switch"><i class="fa fa-search"></i></button>
-					</div>
-				</div>
-			</div>
-		</div>
+
 		<div class="site-navbar">
 			<!-- Logo -->
 			<a href="index.html" class="site-logo">
@@ -91,8 +80,9 @@
 			<nav class="site-nav-menu">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li class="active"><a href="#">Contact</a></li>
+					<li><a href="about.html">About us</a></li>					
+					<li><a href="services.html">Services</a></li>
+					<li class="active"><a href="#">Contact Us</a></li>
 				</ul>
 			</nav>
 
@@ -136,108 +126,55 @@
 				<div class="col-md-3 register-left">
 					<img src="img/rda-removebg-preview.png" alt=""/>
 					<h3>Welcome</h3>
-					<p>You are 30 seconds away from earning your own money!</p>
-					<input type="submit" name="" value="Login"/><br/>
+					<p>You are 30 seconds away from starting an amazing journey</p>
 				</div>
 				<div class="col-md-9 register-right">
-					<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Employee</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<h3 class="register-heading">Apply as a Employee</h3>
 							<div class="row register-form">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="First Name *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Last Name *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="password" class="form-control" placeholder="Password *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
-									</div>
-									<div class="form-group">
-										<div class="maxl">
-											<label class="radio inline"> 
-												<input type="radio" name="gender" value="male" checked>
-												<span> Male </span> 
-											</label>
-											<label class="radio inline"> 
-												<input type="radio" name="gender" value="female">
-												<span>Female </span> 
-											</label>
+								<form class="needs-validation" novalidate>
+									<div class="form-row">
+									  <div class="col-md-6 mb-3">
+										<label for="validationTooltip01">First name</label>
+										<input type="text" class="form-control" id="validationTooltip01" value="" required>
+										<div class="invalid-tooltip">
+											Please enter your firstname.
+										  </div>
+									  </div>
+									  <div class="col-md-6 mb-3">
+										<label for="validationTooltip02">Last name</label>
+										<input type="text" class="form-control" id="validationTooltip02" value="" required>
+										<div class="valid-tooltip">
+										  Looks good!
 										</div>
+									  </div>
 									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="email" class="form-control" placeholder="Your Email *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
-									</div>
-									<div class="form-group">
-										<select class="form-control">
-											<option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-											<option>What is your Birthdate?</option>
-											<option>What is Your old Phone Number</option>
-											<option>What is your Pet Name?</option>
+									<div class="form-row">
+										<div class="col-md-6 mb-3">
+										  <label for="validationTextarea">Address</label>
+										  <textarea class="form-control" id="validationTextarea" placeholder="Please input your Address"></textarea>
+										  <div class="valid-tooltip">
+											Not mandatory, but still necessary!
+										  </div>
+										</div>
+									  <div class="col-md-3 mb-3">
+										<label for="validationTooltip04">State</label>
+										<select class="custom-select" id="validationTooltip04" required>
+										  <option selected disabled value="">Choose...</option>
+										  <option>...</option>
 										</select>
+										<div class="invalid-tooltip">
+										  Please select a valid state.
+										</div>
+									  </div>
+									  <div class="col-md-3 mb-3">
+										<label for="validationTooltip05">Zip</label>
+										<input type="text" class="form-control" id="validationTooltip05" required>
+										<div class="invalid-tooltip">
+										  Please provide a valid zip.
+										</div>
+									  </div>
 									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
-									</div>
-									<input type="submit" class="btnRegister"  value="Register"/>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<h3  class="register-heading">Apply as a Hirer</h3>
-							<div class="row register-form">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="First Name *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Last Name *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" placeholder="Email *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
-									</div>
-
-
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="password" class="form-control" placeholder="Password *" value="" />
-									</div>
-									<div class="form-group">
-										<input type="password" class="form-control" placeholder="Confirm Password *" value="" />
-									</div>
-									<div class="form-group">
-										<select class="form-control">
-											<option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-											<option>What is your Birthdate?</option>
-											<option>What is Your old Phone Number</option>
-											<option>What is your Pet Name?</option>
-										</select>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="`Answer *" value="" />
-									</div>
-									<input type="submit" class="btnRegister"  value="Register"/>
+									<input type="submit" class="btnRegister"  value="Submit"/>
+								  </form>
 								</div>
 							</div>
 						</div>
@@ -252,7 +189,7 @@
 
 	<section class="jumbotron">
    
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8011705361955!2d3.38771453025922!3d6.546771910061188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d0d3d2895b3%3A0x7b11e8d91f8a8094!2s26%20Shittu%20Animashaun%20St%2C%20Bariga%2C%20Lagos!5e0!3m2!1sen!2sng!4v1601070795743!5m2!1sen!2sng" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1591985.6021416523!2d-78.35823585461459!3d38.801604484196424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64debe9f190df%3A0xf2af37657655f6b1!2sMaryland!5e0!3m2!1sen!2sus!4v1631716358747!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		 
 	</section>
     
@@ -349,6 +286,26 @@
 	<!-- Footer section end -->
 
 
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function() {
+		  'use strict';
+		  window.addEventListener('load', function() {
+			// Fetch all the forms we want to apply custom Bootstrap validation styles to
+			var forms = document.getElementsByClassName('needs-validation');
+			// Loop over them and prevent submission
+			var validation = Array.prototype.filter.call(forms, function(form) {
+			  form.addEventListener('submit', function(event) {
+				if (form.checkValidity() === false) {
+				  event.preventDefault();
+				  event.stopPropagation();
+				}
+				form.classList.add('was-validated');
+			  }, false);
+			});
+		  }, false);
+		})();
+		</script>
 	
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>

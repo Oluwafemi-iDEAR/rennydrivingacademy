@@ -42,8 +42,83 @@
 				</div>
 			</div>
 		</div>
+		
+		<form class="needs-validation" novalidate>
+			<div class="form-row">
+			  <div class="col-md-6 mb-3">
+				<label for="validationCustom01">First name</label>
+				<input type="text" class="form-control" id="validationCustom01" value="" required>
+				<div class="valid-feedback">
+				  Looks good!
+				</div>
+			  </div>
+			  <div class="col-md-6 mb-3">
+				<label for="validationCustom02">Last name</label>
+				<input type="text" class="form-control" id="validationCustom02" value="" required>
+				<div class="valid-feedback">
+				  Looks good!
+				</div>
+			  </div>
+			</div>
+			<div class="form-row">
+			  <div class="col-md-6 mb-3">
+				<label for="validationCustom01">Email</label>
+				<input type="email" class="form-control" id="validationCustom01" value="" required>
+				<div class="valid-feedback">
+				  Looks good!
+				</div>
+			  </div>
+			  <div class="col-md-6 mb-3">
+				<label for="validationCustom02">Phone</label>
+				<input type="text" class="form-control" id="validationCustom02" value="" required>
+				<div class="valid-feedback">
+				  Looks good!
+				</div>
+			  </div>
+			</div>
+			<div class="form-row">
+				<div class="col-md-6 mb-3">
+				  <label for="validationTextarea">Textarea</label>
+				  <textarea class="form-control" id="" placeholder="Please input you address"></textarea>
+				</div>
+				<div class="col-md-6 mb-3">
+				  <label for="validationTextarea">Textarea</label>
+				  <textarea class="form-control" id="validationTextarea" placeholder="Please input your Message" required></textarea>
+				  <div class="invalid-feedback">
+					Please enter a message in the textarea.
+				  </div>
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="custom-control px-2 mb-3 custom-radio">
+				  <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+				  <label class="custom-control-label" for="customControlValidation2">Male</label>
+				</div>
+				<div class="custom-control custom-radio mb-3">
+				  <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+				  <label class="custom-control-label" for="customControlValidation3">Female</label>
+				  <div class="invalid-feedback">Please select your gender</div>
+				</div>
+			</div>
+			<input type="submit" class="btnRegister"  value="Register"/>
+		  </form>
 	</section>
-    
+    <script>
+		let userName = prompt("Enter your name now:");
+
+		userName = userName.trim();
+
+		if(userName.length ==0){
+			alert("you didn't enter your name");
+		}else{
+			alert(userName);
+		}
+
+		//operaators in JavaScript
+		//1 assignment operator =
+		let a = '1'
+		//2 equality ==
+	</script>
 	
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>

@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  color: #081624;
+  color: #03063e;
   font-weight: 600;
 }
 
@@ -141,7 +141,7 @@ ol {
 
 /* buttons */
 
-.site-btn {
+.btn {
   display: inline-block;
   border: none;
   font-size: 14px;
@@ -162,7 +162,7 @@ ol {
 
 .site-btn.sb-dark {
   color: #fff;
-  background: #081624;
+  background: #03063e;
 }
 
 .site-btn.sb-light-dark {
@@ -171,12 +171,12 @@ ol {
 }
 
 .site-btn.sb-light {
-  color: #081624;
+  color: #03063e;
   background: #e3f0fa;
 }
 
 .site-btn.sb-white {
-  color: #081624;
+  color: #03063e;
   background: #fff;
 }
 
@@ -425,7 +425,7 @@ ol {
 
 .header-top {
   padding: 14px 40px;
-  background: #081624;
+  background: #03063e;
 }
 
 .header-top p {
@@ -517,7 +517,7 @@ ol {
   margin-right: 35px;
   font-size: 15px;
   font-weight: 600;
-  color: #081624;
+  color: #03063e;
   position: relative;
 }
 
@@ -599,7 +599,7 @@ ol {
   top: calc(50% - 42px);
   left: 0;
   font-size: 30px;
-  color: #081624;
+  color: #03063e;
   background: #fff;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -644,7 +644,7 @@ ol {
 }
 
 .hero-item h2 span:nth-child(1) {
-  color: #081624;
+  color: #03063e;
 }
 
 .hero-item h2 span:nth-child(2) {
@@ -844,7 +844,7 @@ ol {
 
 .testimonial-box {
   padding: 100px 15px 70px;
-  background: #17172d;
+  background: #03063e;
 }
 
 .testimonial-box .testi-box-warp {
@@ -971,7 +971,7 @@ ol {
  ---------------------*/
 
 .footer-section {
-  background: #17172d;
+  background: #03063e;
   padding-bottom: 0;
 }
 
@@ -1229,7 +1229,7 @@ ol {
 .milestone-text span {
   font-size: 18px;
   font-weight: 600;
-  color: #081624;
+  color: #03063e;
 }
 
 .milestone-text h2 {
@@ -1772,12 +1772,12 @@ ol {
   }
   .slicknav_btn {
     margin: 0 auto 20px;
-    background: #081624;
+    background: #03063e;
     float: none;
     display: inline-block;
   }
   .slicknav_nav {
-    background: #081624;
+    background: #03063e;
     text-align: left;
     padding: 8px 5px;
     margin-bottom: 15px;
@@ -1794,7 +1794,7 @@ ol {
     font-size: 60px;
   }
   .hero-item h2 span:nth-child(1) {
-    color: #081624;
+    color: #03063e;
     padding-right: 15px;
   }
   .hero-slider .owl-nav button.owl-prev,
@@ -1852,7 +1852,7 @@ ol {
     font-size: 50px;
   }
   .hero-item h2 span:nth-child(1) {
-    color: #081624;
+    color: #03063e;
     padding-right: 15px;
   }
   .map-section {
@@ -1887,7 +1887,7 @@ ol {
   color: #000;
 }
 .aboutus-title::after {
-  background: #17172d none repeat scroll 0 0;
+  background: #03063e none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -2011,7 +2011,7 @@ a:active {
 
 /* ----------------contact us and registration------------ */
 .register {
-  background: -webkit-linear-gradient(left, #fff, #03031b);
+  background: -webkit-linear-gradient(left, #fff, #03063e);
   margin-top: 3%;
   padding: 3%;
 }
@@ -2115,3 +2115,52 @@ a:active {
 }
 
 /* ----------------contact us and registration ends------------ */
+
+/* ***************************Services************************* */
+/* -----masthead------ */
+.masthead {
+  background-image: url(/img/aerial.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80%;
+}
+.social-box .box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover {
+  box-shadow: 0 0 6px #4183d7;
+}
+
+.social-box .box .box-text {
+  margin: 20px 0px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.social-box .box .box-btn a {
+  text-decoration: none;
+  color: #4183d7;
+  font-size: 16px;
+}
+
+.fa {
+  color: #4183d7;
+}
+
+/* -----------pricing---------- */
+.card-pricing.popular {
+  z-index: 1;
+  border: 3px solid #007bff;
+}
+.card-pricing .list-unstyled li {
+  padding: 0.5rem 0;
+  color: #6c757d;
+}
+/* ***************************Services*end************************ */
